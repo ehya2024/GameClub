@@ -1,0 +1,22 @@
+.game-heading {
+    color: #505050;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.game-heading.dark {
+    color: #7c7c7c;
+}
+
+.game-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 2px;
+    height: 17px;
+    background-color: #8d8d8d;
+    border-radius: 10px;
+}

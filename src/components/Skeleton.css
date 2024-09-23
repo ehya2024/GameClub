@@ -1,0 +1,15 @@
+.skeleton {
+    height: 300px;
+    animation: blinkAnimation 500ms alternate infinite;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes blinkAnimation {
+    0% {
+        background-color: #d4d4d4;
+    }
+    100% {
+        background-color: #e6e6e6;
+    }
+}

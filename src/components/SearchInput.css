@@ -1,0 +1,57 @@
+.search-box {
+    background-color: rgb(251, 251, 251);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 5px;
+}
+
+.search-box.dark {
+    background-color: #303030;
+}
+
+.search-box.dark input,
+.search-box.dark input::placeholder {
+    color: #9b9b9b;
+}
+
+.search-box input {
+    width: 96.5%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    font-size: 15px;
+}
+
+.search-box svg {
+    width: 31px;
+    height: 31px;
+}
+
+@media screen and (max-width: 1100px) {
+    .search-box {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-box {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .search-box {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .search-box {
+        width: 70%;
+    }
+}

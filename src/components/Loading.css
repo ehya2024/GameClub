@@ -1,0 +1,20 @@
+.loading {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-top: 3px solid gainsboro;
+    border-left: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+    border-right: 3px solid whitesmoke;
+    animation: infiniteRotation 800ms infinite;
+    margin: 0 auto;
+}
+
+@keyframes infiniteRotation {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
